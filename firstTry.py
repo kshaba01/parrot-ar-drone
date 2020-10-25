@@ -11,7 +11,7 @@
 ###########
 
 import time
-import ps_drone                # Imports the PS-Drone-API
+import ps_drone3  as ps_drone              # Imports the PS-Drone-API
 
 drone = ps_drone.Drone()       # Initializes the PS-Drone-API
 drone.startup()                # Connects to the drone and starts subprocesses
@@ -30,7 +30,7 @@ drone.stop()                   # Drone stops
 time.sleep(2)	
 
 drone.setSpeed(1.0)            # Sets default moving speed to 1.0 (=100%)
-print drone.setSpeed()         # Shows the default moving speed
+print(drone.setSpeed())         # Shows the default moving speed
 
 drone.turnLeft()               # Drone moves full speed to the left...
 time.sleep(2)                  # ... for two seconds
