@@ -1,8 +1,12 @@
-# parrot-ar-drone
+# Parrot-ar-drone
+# Getting started
+# The following assumes you have access to a Parrot AR Drone 2.0
+
+# NB I want able to run the API directly from my Windows machine and the instructions recommend a linux based machine; hence I started off by creating a linux VM...
 
 Step 1: Create a linux virtual machine to connect with the drone
 
-I used Hyper-V on Windows and Ubuntu Ubuntu 18.04.3 LTS
+I used Hyper-V on Windows and Ubuntu 18.04.3 LTS
 
 Once created, I did the following:
 
