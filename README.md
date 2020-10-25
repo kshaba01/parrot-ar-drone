@@ -2,7 +2,8 @@
 # Getting started
 # The following assumes you have access to a Parrot AR Drone 2.0
 
-# NB I want able to run the API directly from my Windows machine and the instructions recommend a linux based machine; hence I started off by creating a linux VM...
+NB I wasnt able to run the ps drone API and connect to the drone from my Windows machine and the authors instructions recommend a linux based machine; 
+hence I started off by creating a linux VM...
 
 Step 1: Create a linux virtual machine to connect with the drone
 
