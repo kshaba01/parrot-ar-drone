@@ -19,7 +19,12 @@ Once created, I did the following:
 It's good practice to work in an isolated virtual environment
 - Create a virtual env
 - Activate the virtualenv
-- Install opencv-python (needed later on)
+- Install opencv-python (needed later on) 
+	- in Python 2 use "sudo apt install python-opencv" NB this isnt in the venv"
+ 	- Open a python terminal and check the version
+	 	- import cv2 as cv
+	 	- print cv.__version__ # shoud say 3.2.0
+
 - Pulled down the repo into the virtualenv git clone https://github.com/kshaba01/parrot-ar-drone.git
 
 
